@@ -1,0 +1,11 @@
+analyzer:
+  
+  exclude:
+    - # все правила должны быть отсортированы по алфавиту
+    - "**/generated/**"
+    - "**/*.freezed.dart"
+    - "**/*.g.dart"
+    - "**/*.gen.dart"
+
+formatter:
+  page_width: 120

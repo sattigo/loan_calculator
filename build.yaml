@@ -1,0 +1,20 @@
+targets:
+  $default:
+    
+    builders:
+      
+      built_value_generator|built_value:
+        enabled: true
+        generate_for:
+          - '**/*.build.dart'
+      
+      freezed:
+        enabled: true
+        generate_for:
+          - '**/*.build.dart'
+      
+      json_serializable:
+        enabled: true
+        generate_for:
+          - '**/*.build.dart'
+      
